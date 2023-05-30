@@ -1,15 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import { Box, Typography } from '@mui/material';
+import logo from './logo.svg'
+import './App.css'
+import { Box, Typography } from '@mui/material'
+import headshot from './images/headshot.png'
 
-function App() {
+function App () {
   return (
- <Box>
-  <Typography>
-    Hello World
-  </Typography>
- </Box>
-  );
+    <Box>
+      <img src={headshot} alt='Faceshot' />
+
+      <Typography>Hello World</Typography>
+    </Box>
+  )
 }
 
-export default App;
+export default App
