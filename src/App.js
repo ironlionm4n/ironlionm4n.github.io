@@ -7,7 +7,7 @@ function App () {
   return (
     <Box>
       <img src={headshot} alt='Faceshot' />
-
+      <Typography>Mikail Miller</Typography>
       <Typography>Hello World</Typography>
     </Box>
   )
